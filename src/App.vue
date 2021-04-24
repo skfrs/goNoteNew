@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+    <nav class="navbar fixed-bottom navbar-dark">
       <div class="container-fluid justify-content-end p-2">
         <span class="text-muted mx-5 d-none d-md-block">©2021 Polityka prywatności | Warunki korzystania z usługi</span>
         <span class="text-light"><i class="bi-heart-fill pe-2"></i>Moje konto</span>
@@ -99,9 +99,13 @@
   }
 
   .cover {
-    background-image: url("./assets/background.jpg");
+    background-image: url("./assets/background2.jpg");
     background-position: center;
     background-size: cover;
     height: 30%;
   }
+  .navbar{
+  background-color:#FFF587;
+  }
+  
 </style>
